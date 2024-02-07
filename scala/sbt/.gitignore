@@ -1,0 +1,6 @@
+.bsp/
+.idea/
+.metals/
+target/
+
+*.iml
