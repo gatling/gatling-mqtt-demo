@@ -1,0 +1,30 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/java/gradle"
+    commit-message:
+      prefix: "chore"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+  - package-ecosystem: "maven"
+    directory: "/java/maven"
+    commit-message:
+      prefix: "chore"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+  - package-ecosystem: "gradle"
+    directory: "/kotlin/gradle"
+    commit-message:
+      prefix: "chore"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+  - package-ecosystem: "maven"
+    directory: "/kotlin/maven"
+    commit-message:
+      prefix: "chore"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
