@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-  gatlingImplementation("io.gatling:gatling-mqtt-java:3.10.3.1-SNAPSHOT")
+  gatlingImplementation("io.gatling:gatling-mqtt-java:3.10.4")
 }
 
 gatling {
