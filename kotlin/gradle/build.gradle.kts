@@ -4,7 +4,7 @@ plugins {
   kotlin("plugin.allopen")    version "1.9.23"
 
   id("com.diffplug.spotless") version "6.25.0"
-  id("io.gatling.gradle")     version "3.10.5.1"
+  id("io.gatling.gradle")     version "3.11.1"
 }
 
 repositories {
@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-  gatlingImplementation("io.gatling:gatling-mqtt-java:3.10.5.1")
+  gatlingImplementation("io.gatling:gatling-mqtt-java:3.11.1")
 }
 
 gatling {
