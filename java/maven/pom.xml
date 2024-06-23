@@ -18,7 +18,7 @@
         <gatling-mqtt.version>3.11.4</gatling-mqtt.version>
         <gatling-maven-plugin.version>4.9.4</gatling-maven-plugin.version>
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
-        <maven-jar-plugin.version>3.4.1</maven-jar-plugin.version>
+        <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
         <spotless.version>2.43.0</spotless.version>
     </properties>
 
