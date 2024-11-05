@@ -4,7 +4,7 @@ plugins {
   kotlin("plugin.allopen")    version "2.0.21"
 
   id("com.diffplug.spotless") version "6.25.0"
-  id("io.gatling.gradle")     version "3.12.0.3"
+  id("io.gatling.gradle")     version "3.12.0.4"
 }
 
 repositories {
