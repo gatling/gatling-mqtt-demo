@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-  gatlingImplementation("io.gatling:gatling-mqtt-java:3.13.1.2")
+  gatlingImplementation("io.gatling:gatling-mqtt-java:3.13.1.3")
 }
 
 gatling {
