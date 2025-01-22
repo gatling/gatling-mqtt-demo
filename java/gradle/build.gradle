@@ -3,7 +3,7 @@ plugins {
   id("java")
 
   id("com.diffplug.spotless") version "7.0.2"
-  id("io.gatling.gradle")     version "3.13.2"
+  id("io.gatling.gradle")     version "3.13.3"
 }
 
 repositories {
@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-  gatlingImplementation("io.gatling:gatling-mqtt-java:3.13.2")
+  gatlingImplementation("io.gatling:gatling-mqtt-java:3.13.3")
 }
 
 gatling {
