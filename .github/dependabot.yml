@@ -1,34 +1,40 @@
 version: 2
 updates:
-  - package-ecosystem: "gradle"
-    directory: "/java/gradle"
+  - package-ecosystem: "github-actions"
+    directory: "/"
     commit-message:
       prefix: "chore"
     schedule:
       interval: "weekly"
-      day: "monday" # explicit, even tough it's the weekly default
-      time: "07:00" # UTC
-  - package-ecosystem: "maven"
-    directory: "/java/maven"
-    commit-message:
-      prefix: "chore"
-    schedule:
-      interval: "weekly"
-      day: "monday" # explicit, even tough it's the weekly default
+      day: "monday" # explicit, even though it's the weekly default
       time: "07:00" # UTC
   - package-ecosystem: "gradle"
-    directory: "/kotlin/gradle"
+    directories:
+      - "/java/gradle"
+      - "/kotlin/gradle"
     commit-message:
       prefix: "chore"
     schedule:
       interval: "weekly"
-      day: "monday" # explicit, even tough it's the weekly default
+      day: "monday" # explicit, even though it's the weekly default
       time: "07:00" # UTC
   - package-ecosystem: "maven"
-    directory: "/kotlin/maven"
+    directories:
+      - "/java/maven"
+      - "/kotlin/maven"
     commit-message:
       prefix: "chore"
     schedule:
       interval: "weekly"
-      day: "monday" # explicit, even tough it's the weekly default
+      day: "monday" # explicit, even though it's the weekly default
+      time: "07:00" # UTC
+  - package-ecosystem: "npm"
+    directories:
+      - "/javascript"
+      - "/typescript"
+    commit-message:
+      prefix: "chore"
+    schedule:
+      interval: "weekly"
+      day: "monday" # explicit, even though it's the weekly default
       time: "07:00" # UTC
