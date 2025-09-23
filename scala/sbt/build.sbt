@@ -7,8 +7,8 @@ scalacOptions := Seq(
   "-encoding", "UTF-8", "-release:8", "-deprecation",
   "-feature", "-unchecked", "-language:implicitConversions", "-language:postfixOps")
 
-val gatlingVersion = "3.14.4"
-val gatlingMqttVersion = "3.14.4"
+val gatlingVersion = "3.14.5"
+val gatlingMqttVersion = "3.14.5"
 
 libraryDependencies += "io.gatling.highcharts" % "gatling-charts-highcharts" % gatlingVersion     % "test,it"
 libraryDependencies += "io.gatling"            % "gatling-mqtt"              % gatlingMqttVersion % "test,it"
