@@ -34,6 +34,10 @@ updates:
       - "/typescript"
     commit-message:
       prefix: "chore"
+    groups:
+      gatling:
+        patterns:
+          - "@gatling.io/*"
     schedule:
       interval: "weekly"
       day: "monday" # explicit, even though it's the weekly default
