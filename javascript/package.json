@@ -6,7 +6,7 @@
   "main": "target/bundle",
   "dependencies": {
     "@gatling.io/core": "3.14.400",
-    "@gatling.io/mqtt": "3.14.400",
+    "@gatling.io/mqtt": "3.14.500",
     "uuid": "13.0.0"
   },
   "devDependencies": {
