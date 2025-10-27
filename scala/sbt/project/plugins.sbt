@@ -1,1 +1,1 @@
-addSbtPlugin("io.gatling" % "gatling-sbt" % "4.17.7")
+addSbtPlugin("io.gatling" % "gatling-sbt" % "4.17.8")
