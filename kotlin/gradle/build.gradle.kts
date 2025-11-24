@@ -3,7 +3,7 @@ plugins {
   kotlin("jvm")               version "2.2.21"
   kotlin("plugin.allopen")    version "2.2.21"
 
-  id("com.diffplug.spotless") version "8.0.0"
+  id("com.diffplug.spotless") version "8.1.0"
   id("io.gatling.gradle")     version "3.14.9"
 }
 
