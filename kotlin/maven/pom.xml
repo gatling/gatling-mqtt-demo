@@ -10,9 +10,9 @@
     <properties>
         <maven.compiler.release>11</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <gatling.version>3.15.0</gatling.version>
-        <gatling-mqtt.version>3.15.0</gatling-mqtt.version>
-        <gatling-maven-plugin.version>4.21.6</gatling-maven-plugin.version>
+        <gatling.version>3.15.1</gatling.version>
+        <gatling-mqtt.version>3.15.1</gatling-mqtt.version>
+        <gatling-maven-plugin.version>4.21.7</gatling-maven-plugin.version>
         <kotlin.version>2.3.21</kotlin.version>
         <maven-compiler-plugin.version>3.15.0</maven-compiler-plugin.version>
         <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
