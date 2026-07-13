@@ -4,7 +4,7 @@ plugins {
   kotlin("plugin.allopen")    version "2.4.0"
 
   id("com.diffplug.spotless") version "8.8.0"
-  id("io.gatling.gradle")     version "3.15.1"
+  id("io.gatling.gradle")     version "3.15.1.1"
 }
 
 tasks.withType(JavaCompile::class) {
