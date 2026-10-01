@@ -1,5 +1,5 @@
-val gatlingVersion = "3.15.1"
-val gatlingMqttVersion = "3.15.1"
+val gatlingVersion = "3.16.0"
+val gatlingMqttVersion = "3.16.0"
 
 lazy val gatlingSbtPluginDemo = rootProject
   .enablePlugins(GatlingPlugin)
